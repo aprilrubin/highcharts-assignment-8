@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
 h1, h2 {
     font-family: 'Roboto', 'Arial', sans-serif;
     text-align: center;
