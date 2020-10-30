@@ -6,11 +6,11 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Roboto', 'Arial', sans-serif;
     text-align: center;
     color: #000;
-    background: #FFFFFF;
+    background: #FFF;
     padding: 1rem;
     margin: .2rem;
 }
@@ -22,25 +22,19 @@ body {
       padding-left: 12rem;
       padding-right: 12rem;
       color: #000;
-      background: #D3D3D3;
+      background: #add8e6;
 }
 
 div {
     display: flex;
     align-items: center;
+    height: 400px;
 }
 
 #caption {
-    background: #FFFFFF;
+    background: #FFF;
     padding: 1rem;
-}
-
-#container {
-    height: 400px;
-}
-
-#container2 {
-    height: 400px;
+    height: 50px;
 }
 
 .highcharts-figure, .highcharts-data-table table {
@@ -79,7 +73,15 @@ body {
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
 h1, h2 {
 margin: .2rem;
+}
+
+#caption {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 }
