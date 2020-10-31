@@ -1,5 +1,5 @@
 html {
-  box-sizing: border-border-box;
+  box-sizing: border-box;
 }
 
 * {
@@ -33,7 +33,7 @@ div {
 
 #caption {
     background: #FFF;
-    padding: 1rem;
+    padding: 3rem;
     height: 50px;
 }
 
@@ -67,7 +67,7 @@ div {
     background: #f1f7ff;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 
 body {
   padding-left: .5rem;
@@ -79,8 +79,8 @@ margin: .2rem;
 }
 
 #caption {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
